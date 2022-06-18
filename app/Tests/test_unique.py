@@ -1,5 +1,5 @@
 from django.test import SimpleTestCase
-from rest_framework.test import APIClient
+# from rest_framework.test import APIClient
 
 from myapp import views, calc
 
