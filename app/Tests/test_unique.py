@@ -25,13 +25,13 @@ class CalcTests(SimpleTestCase):
         self.assertEqual(res, 4)
 
 
-class TestViews(SimpleTestCase):
-    def setUp(self):
-        self.client = APIClient()
+# class TestViews(SimpleTestCase):
+#     def setUp(self):
+#         self.client = APIClient()
 
-    def test_get_greetings(self):
-        """Test getting greetings"""
-        res = self.client.get('/greetings/')
+#     def test_get_greetings(self):
+#         """Test getting greetings"""
+#         res = self.client.get('/greetings/')
 
-        self.assertEqual(res.status_code, 200)
-        self.assertEqual(res.data, 'Hello, world!')
+#         self.assertEqual(res.status_code, 200)
+#         self.assertEqual(res.data, 'Hello, world!')
